@@ -1,0 +1,26 @@
+<h2 mat-dialog-title>Incident</h2>
+<mat-dialog-content class="mat-typography">
+  <div fxLayout="row">
+    <div fxFlex fxLayout="column">
+      <table style="margin-top: 50px;">
+        <tr><td>Time</td><td>2019.10.26 15:30</td></tr>
+        <tr><td>Time since</td><td>00:15:21</td></tr>
+        <tr><td>Latitude</td><td>51,9909</td></tr>
+        <tr><td>Longitude</td><td>113,1231</td></tr>
+        <tr><td>Sea surf. temp.</td><td>10 C</td></tr>
+      </table>
+
+      <div fxLayout="row" style="margin-top: 20px;">
+        <mat-icon>person</mat-icon><h3 style="line-height: 24px;margin-left: 10px;"> Oskaras</h3>
+      </div>
+
+      <mat-dialog-actions>
+        <button mat-button mat-dialog-close style="margin-top: 150px;">Fake news</button>
+      </mat-dialog-actions>
+    </div>
+    <div fxLayout="column">
+      <app-video name="CAM 4" url="assets/output_video_deck_boundary.mp4"></app-video>
+    </div>
+  </div>
+
+</mat-dialog-content>

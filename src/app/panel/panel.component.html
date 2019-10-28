@@ -1,0 +1,11 @@
+<mat-tab-group>
+  <mat-tab label="In deck ({{deck.length}})">
+    <app-list [items]="this.deck"></app-list>
+  </mat-tab>
+  <mat-tab label="Shift ({{shift.length}})">
+    <app-list [items]="shift"></app-list>
+  </mat-tab>
+  <mat-tab label="Crew ({{crew.length}})">
+    <app-list [items]="crew"></app-list>
+  </mat-tab>
+</mat-tab-group>

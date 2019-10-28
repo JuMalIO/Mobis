@@ -1,0 +1,15 @@
+<mat-list class="list">
+  <mat-list-item *ngFor="let item of items">
+    <div fxFlex fxLayout="row">
+      <div fxFlex>
+        <mat-icon>{{item.icon}}</mat-icon>
+        <div fxFlex class="text">
+          {{item.name}}
+        </div>
+      </div>
+      <div>
+        <mat-icon>{{item.status}}</mat-icon>
+      </div>
+    </div>
+  </mat-list-item>
+</mat-list>

@@ -1,0 +1,9 @@
+.list {
+  overflow-y: scroll;
+  height: 840px;
+}
+
+.text {
+  line-height: 24px;
+  margin-left: 10px;
+}

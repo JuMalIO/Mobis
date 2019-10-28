@@ -1,0 +1,19 @@
+.icon {
+  font-size: 36px;
+  margin-right: 20px;
+}
+
+::ng-deep .mat-snack-bar-container {
+  font-size: 36px;
+  background: yellow;
+  color: black;
+  max-width: 440px;
+}
+
+::ng-deep .mat-simple-snackbar {
+  font-size: 18px;
+}
+
+::ng-deep .mat-button-wrapper {
+
+}
